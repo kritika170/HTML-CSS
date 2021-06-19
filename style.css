@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color:rgb(238, 220, 236);
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    text-align:center;
+}
+
+p{
+    font-weight:bold;
+}
+
+input{
+    width:"100%";
+}
+
+input[type="text"]{
+    width:100%;
+}
+input[type="email"]{
+    width:50%;
+}
+
+button{
+    color:coral;
+    background-color:cornflowerblue;
+    border:2px solid coral;
+    
+}
+
+.second{
+    color:chocolate;
+}
+
+#nature{
+    color:cornflowerblue;
+    text-align:left;
+}
+
+.content{
+    background-color:cornflowerblue;
+    color:chocolate;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.box-model{
+    border:5px dotted black; 
+    margin-top:10px;   
+    margin-bottom:10px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.parent{
+    background:cadetblue;
+    width:100%;
+    height:500px;
+}
+
+.child{
+    display:inline-block; /* display element used */
+    background:chartreuse;
+    width:100px;
+    height:100px;
+    margin:5px;
+}
+
+.parent1{
+    position:relative; /*whenever you are using position as absolute make sure to use position as relative in the parent class*/
+    background:chocolate;
+    width:300px;
+    height:300px;
+}
+
+.child1{
+    position:absolute; /*use position as absolute so that you can make changes in the position with respect to parent element that contains position as relative*/
+    background:cornsilk;
+    width:100px;
+    height:100px;
+    margin:5px;
+    top:0;
+    right:0;
+}
+
+.btn{
+    background:darkblue;
+    border:5px solid black;
+    color:white;
+    margin:50px;
+    padding:25px;
+    border-radius:15px;
+    
+}
+
+.btn:hover{
+    background:deepskyblue;
+}
+
+.btn:focus{
+    background:grey;
+}
+
+.btn:disabled{
+    cursor:not-allowed;
+}
+
+/*external css*/
